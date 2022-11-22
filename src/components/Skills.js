@@ -1,6 +1,6 @@
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
-
+import { SiJavascript, SiHtml5, SiCss3, SiNodedotjs, SiExpress, SiMysql, SiSequelize, SiHandlebarsdotjs, SiMongodb, SiReact } from "react-icons/si";
 
 export default function Skills() {
   return (
@@ -16,18 +16,18 @@ export default function Skills() {
           </p>
         </div>
 			<div class="flex flex-row justify-center">
-				<img className="images" src="./html5.png" alt="html5"></img>
-				<img className="images" src="./css.png" alt="css"></img>
-				<img className="images" src="./js.png" alt="javascript"></img>
-				<img className="images" src="./node.jpg" alt="nodejs"></img>
-				<img className="images" src="./express.png" alt="express"></img>
+				<SiHtml5 className="mx-auto inline-block w-10 mb-4 techicons" />
+				<SiCss3 className="mx-auto inline-block w-10 mb-4 techicons" />
+				<SiJavascript className="mx-auto inline-block w-10 mb-4 techicons" />
+				<SiNodedotjs className="mx-auto inline-block w-10 mb-4 techicons" />
+				<SiExpress className="mx-auto inline-block w-10 mb-4 techicons" />
 			</div>
 			<div class="flex flex-row justify-center">
-				<img className="images" src="./mysql.png" alt="mysql"></img>
-				<img className="images" src="./sequelize.png" alt="sequelize"></img>
-				<img className="images" src="./handlebars.png" alt="handlebars"></img>
-				<img className="images" src="./mongodb.jpg" alt="handlebars"></img>
-				<img className="images" src="./react.png" alt="react"></img>
+				<SiMysql className="mx-auto inline-block w-10 mb-4 techicons" />
+				<SiSequelize className="mx-auto inline-block w-10 mb-4 techicons" />
+				<SiHandlebarsdotjs className="mx-auto inline-block w-10 mb-4 techicons" />
+				<SiMongodb className="mx-auto inline-block w-10 mb-4 techicons" />
+				<SiReact className="mx-auto inline-block w-10 mb-4 techicons" />
 			</div>
     </div>
     </section>

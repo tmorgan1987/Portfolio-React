@@ -27,6 +27,11 @@ html {
 	margin-right: 2px;
 }
 
+.techicons {
+	height: 200px;
+	width: 125px;
+}
+
 /* Animation */
 .anim-typewriter{
   animation: typewriter 4s steps(44) 1s 1 normal both,
