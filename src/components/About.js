@@ -27,9 +27,9 @@ export default function About() {
 				</div>
 				<div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
 					<img 
-						className="object-cover object-center rounded"
+						className="object-cover object-center rounded portpic"
 						alt="the man, the myth, the legend"
-						src="./portpic.jpg"
+					src="./portpic.jpg"
 						/>		
 				</div>
 			</div>
