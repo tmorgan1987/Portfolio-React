@@ -15,14 +15,14 @@ export default function Skills() {
             I'm fluent in these languages and technologies!
           </p>
         </div>
-			<div class="flex flex-row justify-center">
+			<div className="flex flex-row justify-center">
 				<SiHtml5 className="mx-auto inline-block w-10 mb-4 techicons" />
 				<SiCss3 className="mx-auto inline-block w-10 mb-4 techicons" />
 				<SiJavascript className="mx-auto inline-block w-10 mb-4 techicons" />
 				<SiNodedotjs className="mx-auto inline-block w-10 mb-4 techicons" />
 				<SiExpress className="mx-auto inline-block w-10 mb-4 techicons" />
 			</div>
-			<div class="flex flex-row justify-center">
+			<div className="flex flex-row justify-center">
 				<SiMysql className="mx-auto inline-block w-10 mb-4 techicons" />
 				<SiSequelize className="mx-auto inline-block w-10 mb-4 techicons" />
 				<SiHandlebarsdotjs className="mx-auto inline-block w-10 mb-4 techicons" />
